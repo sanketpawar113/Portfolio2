@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{  
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-color: aliceblue;
+}
+.logo{
+    width: 100%;
+    height: 6vh;
+    /* background-color: rgba(0,0,0,0.2); */
+    text-align: center;
+}
+.logo h1{
+    color: cornflowerblue;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw;
+    gap: 10px;  
+}
+.one,.two,.three,.four,.five,.six{
+    padding: 1rem;
+    width: 12vw;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    overflow: scroll;
+}
+.one::-webkit-scrollbar,.two::-webkit-scrollbar,.three::-webkit-scrollbar,.four::-webkit-scrollbar,.five::-webkit-scrollbar,.six::-webkit-scrollbar {
+    display: none;
+}
+.one img,.two img,.three img,.four img,.five img,.six img{
+    width: 100%;
+    height: 15vh;
+
+}
+.one h2,.two h2,.three h2,.four h2,.five h2,.six h2{
+    padding: 1vw 0;
+    align-items: center;
+}
